@@ -146,16 +146,27 @@
 
 
 ### <span style="background-color:#fff5b1"> Back-end </span>
-<div>
+
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+![Gradle](https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
+![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+
+### <span style="background-color:#fff5b1"> Infra </span>
+
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Amazon S3](https://img.shields.io/badge/Amazon%20S3-FF9900?style=for-the-badge&logo=amazons3&logoColor=white)
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
+![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-000?style=for-the-badge&logo=apachekafka)
+![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
 
 </div>
 
-### Infra
-<div>
-
-</div>
-
-### Tools
+### Collaboration Tools 
 <div>
 <img src="https://github.com/yewon-Noh/readme-template/blob/main/skills/Github.png?raw=true" width="80">
 <img src="https://github.com/yewon-Noh/readme-template/blob/main/skills/Notion.png?raw=true" width="80">
@@ -240,4 +251,4 @@
 | 파트 | 규칙 |
 | --- | --- |
 | Front-end | Pn Rule을 통해 코멘트의 중요도를 명확하게 표현한다. <Pn Rule> •P1: 반드시 반영해야 합니다. (Request changes) • P2: 적극적으로 반영해 주세요. (Request changes) • P3: 가능하면 반영해 주세요. (Comment) • P4: 반영해도 좋고, 넘어가도 무방합니다. (Approve) • P5: 단순한 개인 의견입니다. (Approve) |
-| Back-end | --- |
+| Back-end | PR 작성 시 다음 사항을 반드시 포함해야 합니다:• PR 유형: 기능 추가 / 수정 / 리팩터링 / 버그 수정 등 명확한 분류• 작업 내용: 주요 변경 사항, 영향 범위 등 구체적 기술• Check List: 테스트 여부, API 문서 반영 여부 등 사전 확인• Reviewer 요청 사항: 확인이 필요한 부분이나 리뷰어에게 전달할 맥락 명시코드 리뷰 시에는 가독성, 일관성, 예외 처리, 트랜잭션 처리 등을 중점적으로 확인합니다. |
