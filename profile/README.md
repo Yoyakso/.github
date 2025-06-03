@@ -1,6 +1,6 @@
 ## COMKET: 프로젝트 관리와 커뮤니케이션이 연결된 협업 플랫폼
 
-![GitHub READM md 메인 이미지]
+![Image](https://github.com/user-attachments/assets/fe815b03-c8e9-4afe-8458-9760958e1391)
 
 </br>
 
@@ -63,7 +63,7 @@
 
 * 하나의 티켓 안에서 **세분화된 작업 단위**를 생성할 수 있습니다.
 * **상위-하위 티켓 간 연결**로 구조적 명확성과 흐름의 연속성 확보가 가능합니다.
-* 
+  
 
 > ### 🔷 5. AI 기반 논의 요약 기능
 
@@ -90,20 +90,25 @@
 
 |프로젝트 생성 및 조회|
 |:---:|
-|<img width="1392" alt="Image" src="https://github.com/user-attachments/assets/043ba362-27fa-4ddf-93c2-b8d7fbcc8f82" /> <img width="1392" alt="Image" src="https://github.com/user-attachments/assets/aeecf954-e36d-48e6-823f-2eae52b4b473" />|
+|<img width="1392" alt="Image" src="https://github.com/user-attachments/assets/3f2ae82f-303b-4101-9f6c-63eb81bd3921" /> <img width="1392" alt="Image" src="https://github.com/user-attachments/assets/9b1bc591-d9b1-4d50-9fd9-c994aea13aa7" />|
 
 
 
 |티켓 목록 조회|
 |:---:|
-|<img width="1392" alt="Image" src="https://github.com/user-attachments/assets/3d115139-6641-48d1-908b-cc1e947ddd7b" />![티켓 사이드 패널]<img width="1392" alt="Image" src="https://github.com/user-attachments/assets/049200e9-98b7-4945-a5f5-ae0acf8e5ce7" />![티켓 칸반보드]<img width="1392" alt="Image" src="https://github.com/user-attachments/assets/d223072a-a2d8-4f3a-a95c-295ddc09fe4b" />|
+|<img width="1392" alt="Image" src="https://github.com/user-attachments/assets/f294e407-134e-4c3f-b583-b6d57dd388fd" />
+<img width="1392" alt="Image" src="https://github.com/user-attachments/assets/42af31c9-d769-4920-85f6-b57a4df791fd" /><img width="1392" alt="Image" src="https://github.com/user-attachments/assets/a0e65a4d-5665-483b-ad3e-016a2488e8b1" />|
 
+|티켓 생성|
+|:---:|
+||
+|<img width="1392" alt="Image" src="https://github.com/user-attachments/assets/ca0b1c3a-630e-412d-962d-0cb08d202ce1" /><img width="1392" alt="Image" src="https://github.com/user-attachments/assets/ea482647-f97e-4d2f-9957-7983ce13b3b9" />|
 
 
 |티켓 상세 조회|
 |:---:|
 ||
-|화면에 대한 설명을 입력합니다.|
+|<img width="1392" alt="Image" src="https://github.com/user-attachments/assets/3657eaac-e2d7-406e-b591-80549ef3ce36" /><img width="1392" alt="Image" src="https://github.com/user-attachments/assets/86b89b14-c7f4-41cc-98b0-ae46111e6d8f" />|
 
 
 <br />
@@ -178,7 +183,7 @@
 
 ## ⚙ 기술 선정 이유
 
-### 📘 Frontend
+### 🌐 Frontend
 
 | Tech | Description |
 | --- | --- |
@@ -189,7 +194,7 @@
 | Tanstack-Query | COMKET은 실시간 티켓, 댓글, 프로젝트 상태 등의 정보가 자주 변경되고, 최신 상태를 유지해야 하는 특성상 서버 상태 관리가 매우 중요하다. React Quer y는 별도의 상태 관리 없이도 API 호출, 캐싱, refetch, 로딩/에러 상태 관리를 선언적으로 처리할 수 있어 코드 복잡도를 줄이고 사용자 경험을 향상시킨다. 또한, 네트워크 요청을 줄이고 데이터 일관성을 유지할 수 있는 장점이 있어 도입하였다. |
 | Zustand | Redux도 고려했지만, 설정이 복잡하고 보일러플레이트가 많아 팀의 개발 속도와 맞지 않았다. 반면 Zustand는 가볍고 직관적이며, 리렌더링 제어도 쉬워 대시보드 같은 화면에 유리하다다. 초기 설정이 거의 없고, 필요할 때만 가져다 쓰는 방식이어서 빠르게 적용할 수 있을 것 같다. 특히 리렌더링 제어가 용이하여 성능 최적화가 중요한 대시보드 화면에서 유용하다. 상태를 컴포넌트 외부에서 선언하고 직접 가져와 사용할 수 있어 직관적인 상태 관리를 할 수 있으며, 다양한 컴포넌트 간 데이터 공유가 필요한 ComKet에 적합하다 판단되어 채택하였다. |
 
-### 📀 Back-end
+### 💻 Back-end
 
 | Tech | Description |
 | --- | --- |
@@ -201,7 +206,7 @@
 
 
 
-### 💻 **DevOps**
+### ⚙️ **DevOps**
 
 | Tech | Description |
 | --- | --- |
@@ -213,7 +218,7 @@
 | Grafana | Prometheus와 연동하여 모니터링 지표를 시각화하며, 운영중 주요 지표(RPS, 에러율 등)의 빠른 파악과 대시보드 기반 상태 확인이 가능하다. |
 
 
-### ⌨️ **외부 API**
+### 🤖 **외부 API**
 
 | Tech | Description |
 | --- | --- |
