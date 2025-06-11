@@ -4,6 +4,7 @@
 
 </br>
 
+- 서비스 LINK : https://www.comket.co.kr 
 - **팀명** : YOYAKSO
 - **프로젝트 명** : COMKET
 - 2025-1 아주대학교 SW 캡스톤 디자인 프로젝트
